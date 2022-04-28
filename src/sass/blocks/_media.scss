@@ -34,6 +34,14 @@
         }
 
     }
+    .consultation {
+        .title {
+            font-size: 33px;
+        }
+        &__descr {
+            font-size: 17px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -78,6 +86,22 @@
         }
         &__descr {
             font-size: 17px;
+        }
+    }
+    .consultation {
+        max-height: 600px;
+        padding-top: 60px;
+        .title {
+            font-size: 28px;
+            text-align: center;
+        }
+        &__descr {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 50px;
         }
     }
 }
@@ -154,6 +178,14 @@
             text-align: center;
             font-size: 17px;
             margin: 5px 0 10px 0;
+        }
+    }
+    .consultation {
+        .title {
+            font-size: 25px;
+        }
+        &__descr {
+            font-size: 15px;
         }
     }
 }
