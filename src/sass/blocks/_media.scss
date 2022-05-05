@@ -70,6 +70,19 @@
             margin-top: 80px;
         }
     }
+    .footer {
+        &__info {
+            width: 400px;
+            height: 240px;
+            padding: 25px 40px 25px 40px;
+        }
+        &__addr {
+            font-size: 18px;
+        }
+        &__phone {
+            font-size: 18px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -167,6 +180,19 @@
         }
         &__descr {
             font-size: 14px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 320px;
+        }
+        &__addr {
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__phone {
+            font-size: 15px;
+            line-height: 15px;
         }
     }
 }
@@ -292,6 +318,32 @@
             padding-right: 30px;
         }
     }
+    .footer {
+        &__info {
+            width: 250px;
+        }
+        &__addr {
+            font-size: 12px;
+            line-height: 12px;
+        }
+        &__phone {
+            font-size: 13px;
+            line-height: 13px;
+        }
+        &__social-item {
+            margin: 0 5px;
+        }
+    }
+    .modal {
+        width: 350px;
+        min-height: 350px;
+        padding: 25px 15px 25px 20px;
+        button {
+            width: 75%;
+            margin: 0 auto;
+            font-size: 15px;
+        }
+    }
 }
 @media (max-width: 575px) {
     .promo {
@@ -376,10 +428,32 @@
             font-size: 25px;
         }
         &__item {
-            margin-top: 15px;
+            margin-top: 50px;
         }
         &__descr {
-            padding:  0 40px 0 40px;
+            width: 300px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 230px;
+            padding: 10px 30px 10px 30px;
+        }
+        &__addr {
+            margin-bottom: 20px;
+        }
+        &__phone {
+            margin-bottom: 20px;
+        }
+
+        &__social {
+            display: flex;
+            flex-direction: column;
+        }
+        &__social-item {
+            width: 45px;
+            height: 45px;
+            margin-bottom: 5px;
         }
     }
 }
